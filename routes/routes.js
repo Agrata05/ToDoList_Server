@@ -17,3 +17,9 @@ router.post(
   ],
   listController.userData
 );
+
+router.post("/addTask", listController.addTask);
+
+router.get("/getTask", listController.getList);
+
+module.exports = router;
